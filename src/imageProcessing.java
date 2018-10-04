@@ -41,7 +41,15 @@ public class imageProcessing {
 			if(zeroFramedAry[rows][cols]>=neighborAry[2])
 				if(zeroFramedAry[rows][cols]>=neighborAry[3])
 					if(zeroFramedAry[rows][cols]>=neighborAry[4])
-						return 1;
+						if(zeroFramedAry[rows][cols]>=neighborAry[5])
+							if(zeroFramedAry[rows][cols]>=neighborAry[6])
+								if(zeroFramedAry[rows][cols]>=neighborAry[7])
+									if(zeroFramedAry[rows][cols]>=neighborAry[8])
+										return 1;
+									else return 0;
+								else return 0;
+							else return 0;
+						else return 0;
 					else return 0;
 				else return 0;
 			else return 0;
